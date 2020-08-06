@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Face Emotion Recognition </h2>
+<p>In addition with the Emotion Recognition, Graphical Visualisation of Emotions is also shown </p>
+
+<div class="row">
+  <div class="column">
+    <h2>Input Image</h2>
+    <img src="/static/{{orig}}" alt="Original" style="width:100%">
+  </div>
+  <div class="column">
+    <h2>Prediction</h2>
+    <img src="/static/{{pred}}"  alt="Prediction" style="width:100%">
+  </div>
+  <div class="column">
+    <h2>Graphical Visualisation</h2>
+    <img src="/static/{{bar}}"  alt="Visualisation" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
