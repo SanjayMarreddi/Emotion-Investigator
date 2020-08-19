@@ -27,3 +27,9 @@ and putting text of its emotion on it.
 Visualization of Emotions present in the Image provided.
 - Finally creating a file which inherits form all the Classes defined by us and
 deploys our application using Flask.
+
+
+## Tech Stack used 
+- Deep Learning Techniques : Convolutional Nueral Networks (CNN)
+- Python
+- Flask
