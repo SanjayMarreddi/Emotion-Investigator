@@ -5,6 +5,21 @@ Real-time Video input and predicts the Emotion of users present in front of
 Webcam. It also gives Graphical Visualization of Expressions when we feed in an
 Image.
 
+
+## Predictions done by Model
+
+#### 1.Sad
+![Sad](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/sad.png)
+
+#### 2.Angry
+![Angry](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/angry.png)
+
+#### 3.Happy
+![Happy](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/happy.png)
+
+
+
+
 ## Coding Structure:
 
 - Import the required Packages and Libraries.
