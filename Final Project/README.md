@@ -33,3 +33,16 @@ deploys our application using Flask.
 - Deep Learning Techniques : Convolutional Nueral Networks (CNN)
 - Python
 - Flask
+
+
+### We can further improve the Validation Accuracy of the model by tuning the hyperparameters like:
+- Learning Rate
+- Epochs
+- Batch Size
+- Number of Layers in CNN
+- Number of filters
+- Size of filters
+- Value in Dropout Layers
+- Optimizers
+
+#### Any Suggestions, Pull Requests, Issues are welcomed !
