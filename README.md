@@ -6,20 +6,6 @@ Webcam. It also gives Graphical Visualization of Expressions when we feed in an
 Image.
 
 
-## Predictions done by Model
-
-#### 1.Sad
-![Sad](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/sad.png)
-
-#### 2.Angry
-![Angry](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/angry.png)
-
-#### 3.Happy
-![Happy](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/happy.png)
-
-
-
-
 ## Coding Structure:
 
 - Import the required Packages and Libraries.
@@ -48,6 +34,19 @@ deploys our application using Flask.
 - Deep Learning Techniques : Convolutional Nueral Networks (CNN)
 - Python
 - Flask
+
+
+
+## Predictions done by Model
+
+![Sad](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/sad.png)
+
+![Angry](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/angry.png)
+
+![Happy](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/happy.png)
+
+
+
 
 
 ### We can further improve the Validation Accuracy of the model by tuning the hyperparameters like:
