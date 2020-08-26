@@ -7,7 +7,7 @@ from fer_camera import VideoCamera
 # From the module "fer_Graphical_Visualisation" let us import the Emotion_Analysis Function
 from fer_Graphical_Visualisation import Emotion_Analysis
 
-from flask_sqlalchemy import SQLALCHEMY_
+# from flask_sqlalchemy import SQLALCHEMY_
 
 # Import the Random Module 
 import random
@@ -16,13 +16,13 @@ import random
 app = Flask(__name__)
 
 
-ENV ="prod"
+# ENV ="prod"
 
-if ENV =="prod":
-    app.debug =False
-    app.config['SQLALCHEMY_DATABASE_URI'] =" postgres://hlzcifuyqjilsm:8efa9454fccd85c6d2e12cde062f59e9531505c7bce7aa0e81619828aaf88506@ec2-54-235-192-146.compute-1.amazonaws.com:5432/dfsna6ggbpq3rt"
+# if ENV =="prod":
+#     app.debug =False
+#     app.config['SQLALCHEMY_DATABASE_URI'] =" postgres://hlzcifuyqjilsm:8efa9454fccd85c6d2e12cde062f59e9531505c7bce7aa0e81619828aaf88506@ec2-54-235-192-146.compute-1.amazonaws.com:5432/dfsna6ggbpq3rt"
 
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Defining the route for Home Page
 @app.route('/')
