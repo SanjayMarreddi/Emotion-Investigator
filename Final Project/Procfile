@@ -1,1 +1,0 @@
-web: gunicorn fer_main:app
