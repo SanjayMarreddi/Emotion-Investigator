@@ -1,4 +1,4 @@
-# Facial Expression Recognition Classifier Model
+# :sunglasses: Facial Expression Recognition Classifier Model 
 
 A Facial Expression Recognition Classifier Model that takes
 Real-time Video input and predicts the Emotion of users present in front of
@@ -6,7 +6,7 @@ Webcam. It also gives Graphical Visualization of Expressions when we feed in an
 Image via Web Cam or manually !
 
 
-## Coding Structure:
+## :computer: Coding Structure:
 
 - Import the required Packages and Libraries.
 - Data analysis and Creating Training and Validation Batches.
@@ -30,14 +30,14 @@ Visualization of Emotions present in the Image provided.
 deploys our application using Flask.
 
 
-## Tech Stack used 
+## :loop: Tech Stack used 
 - Deep Learning Techniques : Convolutional Nueral Networks (CNN)
 - Python
 - Flask
 
 
 
-## Predictions done by Model
+## :golf: Predictions done by Model 
 
 ![Sad](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/sad.png)
 
@@ -49,7 +49,7 @@ deploys our application using Flask.
 
 
 
-### We can further improve the Validation Accuracy of the model by tuning the hyperparameters like:
+## :innocent: We can further improve the Validation Accuracy of the model by tuning the hyperparameters like:
 - Learning Rate
 - Epochs
 - Batch Size
@@ -59,4 +59,4 @@ deploys our application using Flask.
 - Value in Dropout Layers
 - Optimizers
 
-#### Any Suggestions, Pull Requests, Issues are welcomed !
+## Any Suggestions, Pull Requests, Issues are welcomed ! :tada:
