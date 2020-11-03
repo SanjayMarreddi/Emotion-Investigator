@@ -5,6 +5,8 @@ Real-time Video input and predicts the Emotion of users present in front of
 Webcam. It also gives Graphical Visualization of Expressions when we feed in an
 Image via Web Cam or manually !
 
+![images](https://user-images.githubusercontent.com/57671048/98015631-031f3e80-1e23-11eb-9adc-70fd489cc004.png)
+
 
 ## :computer: Coding Structure:
 
