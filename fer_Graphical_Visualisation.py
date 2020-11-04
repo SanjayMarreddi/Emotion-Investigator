@@ -1,9 +1,10 @@
 # Let us import the Libraries required.
 import cv2
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-# From Module named "model", Let us import the FacialExpressionModel class.
+# From Module named "fer_model", Let us import the FacialExpressionModel class.
 from fer_model import FacialExpressionModel
 
 # Creating an instance of the class with the parameters as model and its weights.
@@ -13,11 +14,12 @@ facec = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Let us define a Function that does the Analysis of Emotions
 def Emotion_Analysis(img):
 
-    # Read the Image through OpenCv
-    path = "C:/Users/Swetha/Desktop/Sanjay/Technocolabs/Project/static/"+ str(img)
-    img_p = cv2.imread(path)
-    
-    # Convert the Image into Gray Scale 
+    # Read the Image through OpenCv's imread()
+    # path = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/" + str(img)
+    img_p = cv2.imread("C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/predict.jpg")
+
+    # print(img_p)
+    # Convert the Image into Gray Scale
     gray_fr = cv2.cvtColor(img_p, cv2.COLOR_BGR2GRAY)
 
     # Detect the Faces in the given Image and store it in faces.
@@ -34,7 +36,7 @@ def Emotion_Analysis(img):
         # Let us make the Prediction of Emotion present in the Image
         pred_e = test_model.predict_emotion(roi[np.newaxis, :, :, np.newaxis])
         
-        # Let us define text and its Font style that is to be written on Image
+        # Let us define text and its Font style that is to be written on Image representing the prediction
         sym={"Happy":":)","Sad":":}","Surprise":"!!","Angry":"?","Disgust":"#","Neutral":".","Fear":"~"}
         text= str(pred_e) + sym[str(pred_e)] 
         font = cv2.FONT_HERSHEY_SIMPLEX
@@ -51,12 +53,14 @@ def Emotion_Analysis(img):
         cv2.circle(img_p, (int(xc),int(yc)), int(radius), (0,255,0), 2)
 
         # Showing the Image to the user Interface
-        cv2.imshow("Image",img_p)
-        cv2.waitKey(1000)
+        # cv2.imshow("Image",img_p)
+        # cv2.waitKey(1000)
 
         # Saving the Predicted Image
-        save_to ="C:/Users/Swetha/Desktop/Sanjay/Technocolabs/Project/static/"
-        cv2.imwrite(save_to + "pred"+ str(img), img_p) 
+        print(img_p)
+
+        # path = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/predpredict.jpg"
+        cv2.imwrite("C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/predpredict.jpg", img_p) 
 
         # List of Emotions
         EMOTIONS = ["Angry", "Disgust",
@@ -83,13 +87,14 @@ def Emotion_Analysis(img):
         plt.title("Face Emotion Recognition") 
 
         # Saving the Bar Plot
-        save_to ="C:/Users/Swetha/Desktop/Sanjay/Technocolabs/Project/static/"
-        plt.savefig( save_to + "bar_plot" + str(img))
+        # save_to = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static"
+        plt.savefig( "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/bar_plotpredict.jpg")
+
+        # path = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static"
+        # cv2.imwrite(os.path.join(path,"bar_plotpredict.jpg"), img) 
+
        
 
     # returns a list containing the names of Original, Predicted, Bar Plot Images
-    return ( [img, "pred"+ str(img) , "bar_plot" + str(img) ] )
+    return ( [img, "pred"+ img , "bar_plot" + img ] )
        
-
-
-

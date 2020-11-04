@@ -28,6 +28,13 @@ class VideoCamera(object):
         # Reading the Video and grasping the Frames
         _, fr = self.video.read()
 
+        # cv2.imshow("Capturing", fr)
+        # key = cv2.waitKey(1)
+        # if key == ord('s'): 
+        #     save_to ="C:/Users/Swetha/Desktop/Sanjay/Technocolabs/Project/static/"
+        #     cv2.imwrite(save_to + "test.jpg", img=fr) 
+        #     webcam.release()
+            
         # Converting the Color image to Gray Scale 
         gray_fr = cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY)
 
