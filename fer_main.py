@@ -16,14 +16,6 @@ import random
 app = Flask(__name__)
 
 
-# ENV ="prod"
-
-# if ENV =="prod":
-#     app.debug =False
-#     app.config['SQLALCHEMY_DATABASE_URI'] =" postgres://hlzcifuyqjilsm:8efa9454fccd85c6d2e12cde062f59e9531505c7bce7aa0e81619828aaf88506@ec2-54-235-192-146.compute-1.amazonaws.com:5432/dfsna6ggbpq3rt"
-
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
 # Defining the route for Home Page
 @app.route('/')
 def index():

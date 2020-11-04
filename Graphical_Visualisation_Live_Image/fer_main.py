@@ -49,7 +49,7 @@ def takeimage():
     print(name)
     v = VideoCamera()
     _, frame = v.video.read()
-    save_to ="C:/Users/Swetha/Desktop/Sanjay/Technocolabs/Project/static/"
+    save_to ="static/"
     cv2.imwrite(save_to + str(name) + ".jpg" , frame) 
     return Response(status=200)
 
