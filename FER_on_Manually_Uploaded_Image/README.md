@@ -1,6 +1,6 @@
-#  Graphical Visualisation of Live Image 
-- Added a new feature which enables the Graphical Visualisation of Emotions present in the Image captured by Web Cam instead of uploading a Picture manually
+#  Graphical Visualisation of Manually Uploaded Images
 
+- Instead of taking Input from the User's Web Cam, This makes Facial Emotion Recognition and Graphical Visualisation of 
+emotions on the Images Uploaded by the user.
 
-![Graphical Visualisation of Live Image](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/Graphical_Visualisation_Live_Image/staticnuetral.png)
 
