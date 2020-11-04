@@ -73,8 +73,6 @@ deploys our application using *Flask*.
 2. Suggesting **Music** based on Facial Emotion predicted :musical_note:
 3. **Deploying** the Model :earth_asia:
 
-### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
-
 ## Steps to Contribute to this Project ! :point_down:
 - Fork this repository
 - Clone the repository to your System using `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
@@ -88,3 +86,5 @@ deploys our application using *Flask*.
 - If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
 - Now describe the changes you made and submit the `pull request`.
 - Wait for the Maintainers to review :)
+
+### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
