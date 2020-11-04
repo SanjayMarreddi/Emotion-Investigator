@@ -12,6 +12,29 @@ Image via Web Cam or manually !
 ![images](https://user-images.githubusercontent.com/57671048/98015631-031f3e80-1e23-11eb-9adc-70fd489cc004.png)
 
 
+## :loop: Tech Stack used 
+- Deep Learning Techniques : Convolutional Nueral Networks (CNN)
+- Python
+- Flask
+
+
+## :golf: Predictions done by Model 
+<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
+<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
+<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
+
+
+
+## :boom: Steps to run the Project in your local device !!
+- Fork this repository.
+- Clone the repository to your System using `git clone`
+- Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
+- Open any **Python** IDE and run the `fer_main.py` file to make Facial Expression Recognition of **Live Image** taken using your Web Cam !
+- In case, If you want to try with Images you already had in your system follow the below steps
+- Just upload them in `static` folder of the Folder `FER_on_Manually_Uploaded_Image` 
+- Now open any **Python** IDE and run the `fer_main_Manual_U.py` file.
+
+
 ## :computer: Coding Structure:
 
 - Import the required Packages and Libraries.
@@ -34,27 +57,6 @@ and putting text of its emotion on it.
 `Visualization` of Emotions present in the Image provided.
 - Finally creating a file which inherits form all the Classes defined by us and
 deploys our application using *Flask*.
-
-
-## :loop: Tech Stack used 
-- Deep Learning Techniques : Convolutional Nueral Networks (CNN)
-- Python
-- Flask
-
-
-
-## :golf: Predictions done by Model 
-<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
-<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
-<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
-
-
-
-## :boom: Steps to run the Project in your local device !!
-- Fork this repository.
-- Clone the repository to your System using `git clone`
-- Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
-- Open any **Python** IDE and run the `fer_main.py` file !
 
 ## :innocent: We can further improve the Validation Accuracy of the model by tuning the hyperparameters like:
 - Learning Rate
