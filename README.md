@@ -17,6 +17,7 @@ Image via Web Cam or manually !
 - Python
 - Flask
 
+### You can watch the Project Demo Video :movie_camera: [here](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Project%20Demonstration.mp4)
 
 ## :golf: Predictions done by Model 
 <img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
