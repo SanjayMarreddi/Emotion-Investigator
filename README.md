@@ -44,12 +44,11 @@ deploys our application using *Flask*.
 
 
 ## :golf: Predictions done by Model 
+<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
+<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
+<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
 
-![Sad](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/sad.png)
 
-![Angry](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/angry.png)
-
-![Happy](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Final%20Project/Predictions/happy.png)
 
 ## :boom: Steps to run the Project in your local device !!
 - Fork this repository.
