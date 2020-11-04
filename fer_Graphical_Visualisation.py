@@ -15,10 +15,8 @@ facec = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 def Emotion_Analysis(img):
 
     # Read the Image through OpenCv's imread()
-    # path = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/" + str(img)
     img_p = cv2.imread("C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/predict.jpg")
 
-    # print(img_p)
     # Convert the Image into Gray Scale
     gray_fr = cv2.cvtColor(img_p, cv2.COLOR_BGR2GRAY)
 
@@ -52,14 +50,7 @@ def Emotion_Analysis(img):
         # Drawing the Circle on the Image
         cv2.circle(img_p, (int(xc),int(yc)), int(radius), (0,255,0), 2)
 
-        # Showing the Image to the user Interface
-        # cv2.imshow("Image",img_p)
-        # cv2.waitKey(1000)
-
         # Saving the Predicted Image
-        print(img_p)
-
-        # path = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/predpredict.jpg"
         cv2.imwrite("C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/predpredict.jpg", img_p) 
 
         # List of Emotions
@@ -87,13 +78,7 @@ def Emotion_Analysis(img):
         plt.title("Face Emotion Recognition") 
 
         # Saving the Bar Plot
-        # save_to = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static"
-        plt.savefig( "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/bar_plotpredict.jpg")
-
-        # path = "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static"
-        # cv2.imwrite(os.path.join(path,"bar_plotpredict.jpg"), img) 
-
-       
+        plt.savefig( "C:/Users/RITCDEV01/Documents/Internships/Technocolabs/Facial-Expression-Recognition-Classifier-Model/static/bar_plotpredict.jpg")       
 
     # returns a list containing the names of Original, Predicted, Bar Plot Images
     return ( [img, "pred"+ img , "bar_plot" + img ] )
