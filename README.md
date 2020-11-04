@@ -68,4 +68,23 @@ deploys our application using *Flask*.
 - Value in Dropout Layers
 - Optimizers
 
-## Any Suggestions, Pull Requests, Issues are welcomed ! :tada:
+## Future Scope of the Project :exclamation:
+1. Making the **Frontend** Attractive :fire:
+2. Suggesting **Music** based on Facial Emotion predicted :musical_note:
+3. **Deploying** the Model :earth_asia:
+
+### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
+
+## Steps to Contribute to this Project ! :point_down:
+- Fork this repository
+- Clone the repository to your System using `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
+- Create a branch :-
+   - Change to the repository directory on your computer `cd Facial-Expression-Recognition-Classifier-Model`
+   - Now create a branch using the git checkout command: `git checkout -b your-new-branch-name`
+- Make changes as per your requirement to solve the Issues mentioned in the `Future scope of the Project` and commit those changes.
+- If you go to the project directory and execute the command git status, you'll see there are changes. Add those changes to the branch you just created using the `git add`
+- Now commit those changes using the git commit command: `git commit -m "Added the feature of Suggesting Music"`
+- Push your changes to GitHub using the command `git push origin <add-your-branch-name>`
+- If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
+- Now describe the changes you made and submit the `pull request`.
+- Wait for the Maintainers to review :)
