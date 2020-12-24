@@ -77,6 +77,7 @@ deploys our application using *Flask*.
 3. **Deploying** the Model :earth_asia:
 
 ## Steps to Contribute to this Project ! :point_down:
+**Go through the link If you are new to Open Source Contribution [here](https://github.com/firstcontributions/first-contributions) on making your First Contribution !!**
 - Fork this repository
 - Clone the repository to your System using `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
 - Create a branch :-
