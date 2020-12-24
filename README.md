@@ -32,7 +32,7 @@ Predictions On Live Image
 - Fork this repository.
 - Clone the repository to your System using `git clone`
 - Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
-- Open any **Python** IDE and run the `fer_main.py` file to make Facial Expression Recognition of **Live Image** taken using your Web Cam !
+- Open any **Python** IDE and run the `fer_main.py` file in the `FER_on_Real_Time_Video_Input` Folder to make Facial Expression Recognition of **Live Image** taken using your Web Cam !
 - In case, If you want to try with Images you already had in your system follow the below steps
 - Just upload them in `static` folder of the Folder `FER_on_Manually_Uploaded_Image` 
 - Now open any **Python** IDE and run the `fer_main_Manual_U.py` file.
