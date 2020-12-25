@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg" height="200">
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -9,7 +11,7 @@ A Facial Expression Recognition Classifier Model that takes
 Webcam. It also gives **Graphical Visualization** of Expressions when we feed in an
 Image via Web Cam or manually !
 
-![images](https://user-images.githubusercontent.com/57671048/98015631-031f3e80-1e23-11eb-9adc-70fd489cc004.png)
+
 
 
 ## :loop: Tech Stack used 
