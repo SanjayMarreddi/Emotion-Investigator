@@ -1,27 +1,35 @@
-<img src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg" height="200">
+#  Facial Emotion Investigator :
+
+<img src=https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg height="200">
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+<img src="https://img.shields.io/badge/CONTRIBUTORS-1-green">
+<img src="https://img.shields.io/badge/FORKS-4-blue">
+<img src="https://img.shields.io/badge/STARS-9-blue">
+<img src="https://img.shields.io/badge/ISSUES-10%20OPEN-yellow">
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# :sunglasses: Facial Expression Recognition Classifier Model 
+## :sunglasses:  About The Project:
 
-A Facial Expression Recognition Classifier Model that takes
-**Real-time Video input** and predicts the **Emotion of users** present in front of
-Webcam. It also gives **Graphical Visualization** of Expressions when we feed in an
-Image via Web Cam or manually !
+# Facial Expression Recognition Classifier Model
+
+Facial expression for emotion detection has always been an easy task for humans, but achieving the same task with a computer algorithm is quite challenging. With the recent advancement in computer vision and machine learning, it is possible to detect emotions from images.In this project,we propose a novel technique called facial emotion recognition using convolutional neural networks,python and flask. Facial expressions are the vital identifiers for human feelings, because it corresponds to the emotions. Most of the times (roughly in 55% cases) [1], the facial expression is a nonverbal way of emotional expression, and it can be considered as concrete evidence to uncover whether an individual is speaking the truth or not [2].
+
+Our Facial Expression Recognition Classifier Model takes **Real-time Video input** and predicts the **Emotion of users** present in front of Webcam. It also gives **Graphical Visualization** of Expressions when we feed in an
+Image via WebCam or manually! like mentioned in the photo below:
+
+<img src="https://miro.medium.com/max/1864/1*oURfHMP1--ttXnDx0heusg.png">
 
 
-
-
-## :loop: Tech Stack used 
+## :loop: Tech Stack used
 - Deep Learning Techniques : Convolutional Nueral Networks (CNN)
 - Python
 - Flask
 
 ### You can watch the Project Demo Video :movie_camera: [here](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Project%20Demonstration.mp4)
 
-## :golf: Predictions done by Model 
+## :golf: Predictions done by Model
 <img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
 <img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
 <img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
@@ -30,13 +38,14 @@ Predictions On Live Image
 
 
 
-## :boom: Steps to run the Project in your local device !!
+
+## :boom: Getting Started: Steps to run the Project in your local device !!
 - Fork this repository.
 - Clone the repository to your System using `git clone`
 - Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
 - Open any **Python** IDE and run the `fer_main.py` file in the `FER_on_Real_Time_Video_Input` Folder to make Facial Expression Recognition of **Live Image** taken using your Web Cam !
 - In case, If you want to try with Images you already had in your system follow the below steps
-- Just upload them in `static` folder of the Folder `FER_on_Manually_Uploaded_Image` 
+- Just upload them in `static` folder of the Folder `FER_on_Manually_Uploaded_Image`
 - Now open any **Python** IDE and run the `fer_main_Manual_U.py` file.
 
 
@@ -92,5 +101,32 @@ deploys our application using *Flask*.
 - If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
 - Now describe the changes you made and submit the `pull request`.
 - Wait for the Maintainers to review :)
+
+## Project Admin :point_down:
+
+<!-- If you click on the image it would take to your GitHub profile -->
+
+[![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
+
+:fire: SanjayMarreddi
+
+## Contributors :point_down:
+
+<!-- If you click on the image it would take to your GitHub profile -->
+
+[![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
+
+
+:fire: SanjayMarreddi
+
+## Code of Conduct
+
+You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
+
+## License
+
+This project follows the [MIT License](/LICENSE).
+
+
 
 ### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
