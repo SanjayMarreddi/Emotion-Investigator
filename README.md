@@ -3,10 +3,10 @@
 <img src=https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg height="200">
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-<img src="https://img.shields.io/badge/CONTRIBUTORS-1-green">
-<img src="https://img.shields.io/badge/FORKS-4-blue">
-<img src="https://img.shields.io/badge/STARS-9-blue">
-<img src="https://img.shields.io/badge/ISSUES-10%20OPEN-yellow">
+![GitHub contributors](https://img.shields.io/github/contributors-anon/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model?style=social)
+![GitHub forks](https://img.shields.io/github/forks/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model?style=social)
+![GitHub Repo Issues](https://img.shields.io/github/issues/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model?style=social)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -115,8 +115,11 @@ deploys our application using *Flask*.
 <!-- If you click on the image it would take to your GitHub profile -->
 
 [![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
+|:--:| 
+| *SanjayMarreddi* |
+[![](https://github.com/muthuannamalai12.png?size=100)](https://github.com/muthuannamalai12)
+| *Muthu Annamalai* |
 
-:fire: SanjayMarreddi
 
 ## Code of Conduct
 
