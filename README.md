@@ -10,11 +10,11 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-## :sunglasses:  About The Project:
+## :sunglasses:  About The Project: :point_down:
 
-# Facial Expression Recognition Classifier Model
+# Facial Expression Recognition Classifier Model :
 
-Facial expression for emotion detection has always been an easy task for humans, but achieving the same task with a computer algorithm is quite challenging. With the recent advancement in computer vision and machine learning, it is possible to detect emotions from images.In this project,we propose a novel technique called facial emotion recognition using convolutional neural networks,python and flask. Facial expressions are the vital identifiers for human feelings, because it corresponds to the emotions. Most of the times (roughly in 55% cases) [1], the facial expression is a nonverbal way of emotional expression, and it can be considered as concrete evidence to uncover whether an individual is speaking the truth or not [2].
+Facial expression for emotion detection has always been an easy task for humans, but achieving the same task with a computer algorithm is quite challenging. With the recent advancement in computer vision and machine learning, it is possible to detect emotions from images.In this project,we propose a novel technique called facial emotion recognition using convolutional neural networks,python and flask. Facial expressions are the vital identifiers for human feelings, because it corresponds to the emotions. Most of the times (roughly in 55% cases), the facial expression is a nonverbal way of emotional expression, and it can be considered as concrete evidence to uncover whether an individual is speaking the truth or not.
 
 Our Facial Expression Recognition Classifier Model takes **Real-time Video input** and predicts the **Emotion of users** present in front of Webcam. It also gives **Graphical Visualization** of Expressions when we feed in an
 Image via WebCam or manually! like mentioned in the photo below:
@@ -22,18 +22,18 @@ Image via WebCam or manually! like mentioned in the photo below:
 <img src="https://miro.medium.com/max/1864/1*oURfHMP1--ttXnDx0heusg.png">
 
 
-## :loop: Tech Stack used
+## :loop: Tech Stack used :point_down:
 - Deep Learning Techniques : Convolutional Nueral Networks (CNN)
 - Python
 - Flask
 
 ### You can watch the Project Demo Video :movie_camera: [here](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Project%20Demonstration.mp4)
 
-## :golf: Predictions done by Model
+## :golf: Predictions done by Model :point_down:
 <img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
 <img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
 <img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
-Predictions On Live Image
+Predictions On Live Image :point_down:
 <img width="891" alt="nuetral" src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png">
 
 
@@ -116,7 +116,6 @@ deploys our application using *Flask*.
 
 [![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
 
-
 :fire: SanjayMarreddi
 
 ## Code of Conduct
@@ -126,7 +125,6 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 ## License
 
 This project follows the [MIT License](/LICENSE).
-
 
 
 ### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
