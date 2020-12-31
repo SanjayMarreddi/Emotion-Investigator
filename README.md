@@ -27,8 +27,6 @@ Image via WebCam or manually! like mentioned in the photo below:
 - Python
 - Flask
 
-### You can watch the Project Demo Video :movie_camera: [here](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/blob/master/Project%20Demonstration.mp4)
-
 ## :golf: Predictions done by Model :point_down:
 <img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
 <img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
@@ -43,11 +41,7 @@ Predictions On Live Image :point_down:
 - Fork this repository.
 - Clone the repository to your System using `git clone`
 - Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
-- Open any **Python** IDE and run the `fer_main.py` file in the `FER_on_Real_Time_Video_Input` Folder to make Facial Expression Recognition of **Live Image** taken using your Web Cam !
-- In case, If you want to try with Images you already had in your system follow the below steps
-- Just upload them in `static` folder of the Folder `FER_on_Manually_Uploaded_Image`
-- Now open any **Python** IDE and run the `fer_main_Manual_U.py` file.
-
+- Open any **Python** IDE and run the `main.py` file. 
 
 ## :computer: Coding Structure:
 
