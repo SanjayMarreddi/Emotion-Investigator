@@ -1,0 +1,74 @@
+<html>
+
+<body>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: deeppink
+        }
+
+        h3 {
+            text-align: center;
+            color: blue;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+    </style>
+    <title>Upload new File</title>
+    <h1>Upload an Image</h1>
+
+    <h3>You can choose any of the following Image formats : 'png', 'jpg', 'jpeg', 'gif' .</h3>
+    <div class="center">
+        <h3>Choose Images from your System</h3>
+        <form action=/uploadimage method=post enctype=multipart/form-data>
+            <input type=file name=file class=button>
+            <input type=submit value=Upload class=button>
+        </form>
+    </div>
+
+    <div class="center">
+        <h3>Fetch Images from the URL </h3>
+        <form action=/imageurl method=post enctype=multipart/form-data>
+            <input type=url class=button value="Enter the URL" name = url>
+            <input type=submit value=Upload class=button>
+        </form>
+    </div>
+
+</body>
+
+</html>

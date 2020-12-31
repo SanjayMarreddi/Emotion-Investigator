@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: deeppink
+    }
+
+    h3 {
+      text-align: center;
+      color: blue;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    div {
+      text-align: center;
+
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+
+    }
+  </style>
+
+  <title>Facial Emotion Investigator</title>
+
+</head>
+
+<body>
+  <h3>Welcome ! </h3>
+  <h1> Facial Emotion Investigator</h1>
+
+  <div class="SLIDESHOW">
+    <img class="mySlides" width=900px height=400px
+      src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg">
+    <img class="mySlides" width=900px height=400px
+      src="https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg">
+    <img class="mySlides" width=900px height=400px
+      src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
+    <img class="mySlides" width=900px height=400px
+      src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
+    <img class="mySlides" width=900px height=400px
+      src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
+    <img class="mySlides" width=900px height=400px
+      src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png">
+
+
+  </div>
+
+  <div class="center">
+
+    <form action="/RealTime" method="post">
+      <input type="submit" name="Real Time Image" value="Real Time Image" class="button" />
+    </form>
+
+    <form action="/ManualUpload" method="post">
+      <input type="submit" name="Manually Upload Image" value="Manually Upload Image" class="button" />
+    </form>
+
+  </div>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+
+  </script>
+</body>
+
+</html>

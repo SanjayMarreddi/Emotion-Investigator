@@ -1,0 +1,77 @@
+<html>
+
+<head>
+  <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: deeppink
+    }
+
+    h3 {
+      text-align: center;
+      color: blue;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    div {
+      text-align: center;
+
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+
+    }
+  </style>
+
+  <title>Real Time Image Capture</title>
+
+</head>
+
+<body>
+  <h1>Capturing your Image !</h1>
+
+  <img src="{{ url_for('video_feed') }}"> <br>
+
+  <h3>Want to figure out your emotion ? </h3>
+
+  <div class="center">
+    <form action="/takeimage" method="post">
+      <input type="submit" name="Click the Photo" value="Click the Image" class="button" />
+    </form>
+  </div>
+
+
+</body>
+
+</html>
