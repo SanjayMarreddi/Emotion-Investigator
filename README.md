@@ -23,9 +23,10 @@ Image via WebCam or manually! like mentioned in the photo below:
 
 
 ## :loop: Tech Stack used :point_down:
-- Deep Learning Techniques : Convolutional Nueral Networks (CNN)
 - Python
 - Flask
+- HTML, CSS
+- Deep Learning (CNN)
 
 ## :golf: Predictions done by Model :point_down:
 <img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
@@ -66,21 +67,6 @@ and putting text of its emotion on it.
 - Finally creating a file which inherits form all the Classes defined by us and
 deploys our application using *Flask*.
 
-## :innocent: We can further improve the Validation Accuracy of the model by tuning the hyperparameters like:
-- Learning Rate
-- Epochs
-- Batch Size
-- Number of Layers in CNN
-- Number of filters
-- Size of filters
-- Value in Dropout Layers
-- Optimizers
-
-## Future Scope of the Project :exclamation:
-1. Making the **Frontend** Attractive :fire:
-2. Suggesting **Music** based on Facial Emotion predicted :musical_note:
-3. **Deploying** the Model :earth_asia:
-
 ## Steps to Contribute to this Project ! :point_down:
 **Go through the link If you are new to Open Source Contribution [here](https://github.com/firstcontributions/first-contributions) on making your First Contribution !!**
 - Fork this repository
@@ -95,6 +81,8 @@ deploys our application using *Flask*.
 - If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
 - Now describe the changes you made and submit the `pull request`.
 - Wait for the Maintainers to review :)
+
+### Excited to contribute to the Project ? Head over Open Issues [here](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/issues)
 
 ## Project Admin :point_down:
 
@@ -114,6 +102,13 @@ deploys our application using *Flask*.
 [![](https://github.com/muthuannamalai12.png?size=100)](https://github.com/muthuannamalai12)
 | *Muthu Annamalai* |
 
+## Open Source Programs
+This Project is part of the following programs :
+
+
+**[DevScript Winter of Code](https://devscript.tech/woc/)**
+
+<img src="https://user-images.githubusercontent.com/57671048/103410240-809bcc80-4b90-11eb-894c-6d3980d1c5d8.png" width="150" height="150">
 
 ## Code of Conduct
 
@@ -124,4 +119,4 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 This project follows the [MIT License](/LICENSE).
 
 
-### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
+### Any type of Contributions via Pull Requests, Issues, Documentation, Code Review are always welcomed ! :tada:
