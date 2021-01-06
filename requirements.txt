@@ -72,3 +72,9 @@ wincertstore==0.2
 wrapt==1.12.1
 yarl==1.2.1
 zipp==3.4.0
+atomicwrites==1.4.0
+iniconfig==1.1.1
+packaging==20.8
+pluggy==0.13.1
+py==1.10.0
+pytest==6.2.1
