@@ -1,4 +1,4 @@
-#  Facial Emotion Investigator :
+#  Facial Emotion Investigator !
 
 <img src=https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg height="200">
 
@@ -18,12 +18,12 @@ Facial expression for emotion detection has always been an easy task for humans,
 
 :golf: Our Facial Expression Recognition Classifier Model can take input via following ways : :point_down:
 - **Real-time Video input** <br>
-<img width="891" alt="nuetral" src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png">
+<img width="891" alt="nuetral" src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png"><br>
 - **Upload Images from the System** <br>
-<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
+<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png"><br>
 - **Provide URL of the Image** <br>
-<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
-<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
+<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png"><br>
+<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png"><br>
 - It predicts the **Emotion of users** and also gives **Graphical Visualization** of **Emotions** as shown above.
 
 ## :loop: Tech Stack used :point_down:
@@ -79,6 +79,7 @@ deploys our application using *Flask*.
 - Now describe the changes you made and submit the `pull request`.
 - Wait for the Maintainers to review :)
 
+### Any sort of Contributions are always welcomed :tada:
 ### Excited to contribute to the Project ? Head over Open Issues [here](https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/issues)
 
 ## Project Admin :point_down:
@@ -116,4 +117,3 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 This project follows the [MIT License](/LICENSE).
 
 
-### Any type of Contributions via Pull Requests, Issues, Documentation, Code Review are always welcomed ! :tada:
