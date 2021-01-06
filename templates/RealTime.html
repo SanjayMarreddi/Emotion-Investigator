@@ -1,6 +1,10 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link href="static/style.css"" rel=" stylesheet">
+
   <style>
     .center {
       display: flex;
@@ -16,14 +20,15 @@
       margin-right: auto;
     }
 
+
     h1 {
       text-align: center;
-      color: deeppink
+      color: yellow
     }
 
     h3 {
       text-align: center;
-      color: blue;
+      color: white;
     }
 
     p {
@@ -59,18 +64,24 @@
 </head>
 
 <body>
-  <h1>Capturing your Image !</h1>
+  <div class="banner-text">
+    <div class="animation-area">
 
-  <img src="{{ url_for('video_feed') }}"> <br>
+      <h1>Capturing your Image !</h1>
 
-  <h3>Want to figure out your emotion ? </h3>
+      <img src="{{ url_for('video_feed') }}"> <br>
 
-  <div class="center">
-    <form action="/takeimage" method="post">
-      <input type="submit" name="Click the Photo" value="Click the Image" class="button" />
-    </form>
+      <h3>Want to figure out your emotion ? </h3>
+
+      <div class="center">
+        <form action="/takeimage" method="post">
+          <input type="submit" name="Click the Photo" value="Click the Image" class="button" />
+        </form>
+      </div>
+
+    </div>
+
   </div>
-
 
 </body>
 

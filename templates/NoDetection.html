@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <link href="static/style.css"" rel=" stylesheet">
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        h1 {
+            text-align: center;
+            color: yellow
+        }
+
+        h3 {
+            text-align: center;
+            color: white;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner-text">
+        <div class="animation-area">
+            <h1> Sorry :( We could not make Prediction! </h1>
+            <h3> Please try with a different Image. </h3>
+
+            <div class="column">
+                <h2>Input Image</h2>
+                <img src="/static/{{orig}}" alt="Original" style="width:100%">
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,5 +1,11 @@
 <html>
 
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
+</head>
+
 <body>
     <style>
         .center {
@@ -18,12 +24,18 @@
 
         h1 {
             text-align: center;
-            color: deeppink
+            color: yellow
         }
+
+        h2 {
+            text-align: center;
+            color: yellow
+        }
+
 
         h3 {
             text-align: center;
-            color: blue;
+            color: white;
         }
 
         p {
@@ -49,26 +61,34 @@
 
         }
     </style>
-    <title>Upload new File</title>
-    <h1>Upload an Image</h1>
+    <div class="banner-text">
+        <div class="animation-area">
+            <title>Upload new File</title>
 
-    <h3>You can choose any of the following Image formats : 'png', 'jpg', 'jpeg', 'gif' .</h3>
-    <div class="center">
-        <h3>Choose Images from your System</h3>
-        <form action=/uploadimage method=post enctype=multipart/form-data>
-            <input type=file name=file class=button>
-            <input type=submit value=Upload class=button>
-        </form>
+            <h1>Upload an Image </h1>
+            <h1>.</h1>
+
+            <h3>Choose Images from your System</h3>
+            <div class="center">
+
+                <form action=/uploadimage method=post enctype=multipart/form-data>
+                    <input type=file name=file class=button>
+                    <input type=submit value=Upload class=button>
+                </form>
+            </div>
+            <h1>.</h1>
+            <h3>Fetch Images from the URL </h3>
+
+            <div class="center">
+
+                <form action=/imageurl method=post enctype=multipart/form-data>
+                    <input type=url class=button value="Enter the URL" name=url>
+                    <input type=submit value=Upload class=button>
+                </form>
+            </div>
+        </div>
+
     </div>
-
-    <div class="center">
-        <h3>Fetch Images from the URL </h3>
-        <form action=/imageurl method=post enctype=multipart/form-data>
-            <input type=url class=button value="Enter the URL" name = url>
-            <input type=submit value=Upload class=button>
-        </form>
-    </div>
-
 </body>
 
 </html>

@@ -1,6 +1,9 @@
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link href="static/style.css" rel="stylesheet">
   <style>
     .center {
       display: flex;
@@ -18,12 +21,12 @@
 
     h1 {
       text-align: center;
-      color: deeppink
+      color: yellow
     }
 
     h3 {
       text-align: center;
-      color: blue;
+      color: white;
     }
 
     p {
@@ -59,35 +62,45 @@
 </head>
 
 <body>
-  <h3>Welcome ! </h3>
-  <h1> Facial Emotion Investigator</h1>
+  <div class="banner-text">
+    <div class="animation-area">
+      <h1> Facial Emotion Investigator</h1>
+      <h1>~</h1>
 
-  <div class="SLIDESHOW">
-    <img class="mySlides" width=900px height=400px
-      src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg">
-    <img class="mySlides" width=900px height=400px
-      src="https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg">
-    <img class="mySlides" width=900px height=400px
-      src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
-    <img class="mySlides" width=900px height=400px
-      src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
-    <img class="mySlides" width=900px height=400px
-      src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
-    <img class="mySlides" width=900px height=400px
-      src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png">
+      <div class="SLIDESHOW">
+        <img class="mySlides" width=900px height=400px
+          src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg"
+          style="display:block">
+        <img class="mySlides" width=900px height=400px
+          src="https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg" style="display:block">
+        <img class="mySlides" width=900px height=400px
+          src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png"
+          style="display:block">
+        <img class="mySlides" width=900px height=400px
+          src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png"
+          style="display:block">
+        <img class="mySlides" width=900px height=400px
+          src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png"
+          style="display:block">
+        <img class="mySlides" width=900px height=400px
+          src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png"
+          style="display:block">
+      </div>
 
 
-  </div>
+      <div class="center">
 
-  <div class="center">
+        <form action="/RealTime" method="post">
+          <input type="submit" name="Real Time Image" value="Real Time Image" class="button" />
+        </form>
 
-    <form action="/RealTime" method="post">
-      <input type="submit" name="Real Time Image" value="Real Time Image" class="button" />
-    </form>
+        <form action="/ManualUpload" method="post">
+          <input type="submit" name="Manually Upload Image" value="Manually Upload Image" class="button" />
+        </form>
 
-    <form action="/ManualUpload" method="post">
-      <input type="submit" name="Manually Upload Image" value="Manually Upload Image" class="button" />
-    </form>
+      </div>
+
+    </div>
 
   </div>
 

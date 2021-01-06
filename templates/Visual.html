@@ -1,6 +1,10 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link href="static/style.css" rel="stylesheet">
+
   <style>
     .center {
       display: flex;
@@ -18,12 +22,12 @@
 
     h1 {
       text-align: center;
-      color: deeppink
+      color: yellow
     }
 
     h3 {
       text-align: center;
-      color: blue;
+      color: white;
     }
 
     * {
@@ -46,23 +50,29 @@
 </head>
 
 <body>
+  <div class="banner-text">
+    <div class="animation-area">
 
-  <h1>Here is the Prediction !</h1>
-  <h3>In addition to the Emotion Recognition, Graphical Visualisation of Emotions is also shown </h3>
+      <h1>Here is the Prediction !</h1>
 
-  <div class="row">
-    <div class="column">
-      <h2>Input Image</h2>
-      <img src="/static/{{orig}}" alt="Original" style="width:100%">
+
+      <div class="row">
+        <div class="column">
+          <h3>Input Image</h3>
+          <img src="/static/{{orig}}" alt="Original" style="width:100%">
+        </div>
+        <div class="column">
+          <h3>Prediction</h3>
+          <img src="/static/{{pred}}" alt="Prediction" style="width:100%">
+        </div>
+        <div class="column">
+          <h3>Graphical Visualisation</h3>
+          <img src="/static/{{bar}}" alt="Visualisation" style="width:100%">
+        </div>
+      </div>
+
     </div>
-    <div class="column">
-      <h2>Prediction</h2>
-      <img src="/static/{{pred}}" alt="Prediction" style="width:100%">
-    </div>
-    <div class="column">
-      <h2>Graphical Visualisation</h2>
-      <img src="/static/{{bar}}" alt="Visualisation" style="width:100%">
-    </div>
+
   </div>
 
 </body>
