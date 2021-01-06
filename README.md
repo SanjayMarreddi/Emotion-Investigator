@@ -16,11 +16,15 @@
 
 Facial expression for emotion detection has always been an easy task for humans, but achieving the same task with a computer algorithm is quite challenging. With the recent advancement in computer vision and machine learning, it is possible to detect emotions from images.In this project,we propose a novel technique called facial emotion recognition using convolutional neural networks,python and flask. Facial expressions are the vital identifiers for human feelings, because it corresponds to the emotions. Most of the times (roughly in 55% cases), the facial expression is a nonverbal way of emotional expression, and it can be considered as concrete evidence to uncover whether an individual is speaking the truth or not.
 
-Our Facial Expression Recognition Classifier Model takes **Real-time Video input** and predicts the **Emotion of users** present in front of Webcam. It also gives **Graphical Visualization** of Expressions when we feed in an
-Image via WebCam or manually! like mentioned in the photo below:
-
-<img src="https://miro.medium.com/max/1864/1*oURfHMP1--ttXnDx0heusg.png">
-
+:golf: Our Facial Expression Recognition Classifier Model can take input via following ways : :point_down:
+- **Real-time Video input** <br>
+<img width="891" alt="nuetral" src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png">
+- **Upload Images from the System** <br>
+<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
+- **Provide URL of the Image** <br>
+<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
+<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
+- It predicts the **Emotion of users** and also gives **Graphical Visualization** of **Emotions** as shown above.
 
 ## :loop: Tech Stack used :point_down:
 - Python
@@ -28,21 +32,13 @@ Image via WebCam or manually! like mentioned in the photo below:
 - HTML, CSS
 - Deep Learning (CNN)
 
-## :golf: Predictions done by Model :point_down:
-<img width="896" alt="sad" src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png">
-<img width="897" alt="angry" src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png">
-<img width="884" alt="happy" src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png">
-Predictions On Live Image :point_down:
-<img width="891" alt="nuetral" src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png">
-
-
-
-
 ## :boom: Getting Started: Steps to run the Project in your local device !!
 - Fork this repository.
 - Clone the repository to your System using `git clone`
 - Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
 - Open any **Python** IDE and run the `main.py` file. 
+- Once it shows `Running on http://127.0.0.1:5000/` go to *http://127.0.0.1:5000/* in your browser.
+
 
 ## :computer: Coding Structure:
 
@@ -66,6 +62,7 @@ and putting text of its emotion on it.
 `Visualization` of Emotions present in the Image provided.
 - Finally creating a file which inherits form all the Classes defined by us and
 deploys our application using *Flask*.
+<img src="https://miro.medium.com/max/1864/1*oURfHMP1--ttXnDx0heusg.png">
 
 ## Steps to Contribute to this Project ! :point_down:
 **Go through the link If you are new to Open Source Contribution [here](https://github.com/firstcontributions/first-contributions) on making your First Contribution !!**
