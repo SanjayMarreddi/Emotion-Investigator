@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <link href="static/style.css" rel="stylesheet">
 
   <style>
@@ -50,8 +51,8 @@
 </head>
 
 <body>
-  <div class="banner-text">
-    <div class="animation-area">
+  <div class="banner-text" >
+    <div class="animation-area" >
 
       <h1>Here is the Prediction !</h1>
 
@@ -70,10 +71,53 @@
           <img src="/static/{{bar}}" alt="Visualisation" style="width:400px;height:500px;">
         </div>
       </div>
-
+    <div style="display:flex;flex-direction:column; align-items:center;
+    justify-content:center;
+    text-align:center;">
+      <div class="animation-area" style="height: 100vh;display:flex;flex-direction:column; align-items:center;
+      justify-content:center;
+      text-align:center;color:white">
+    <p style="color:white">{{sentence}}</p>
+    <div class="music">
+      <p style="padding:10px">Music option 1:</p>
+      <audio controls>
+        <source src="/static/music/{{music}}/music1.mp3" preload="auto" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
     </div>
-
+    <div class="music">
+      <p style="padding:10px">Music option 2:</p>
+      <audio controls>
+        <source src="/static/music/{{music}}/music2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="music">
+      <p style="padding:10px">Music option 3:</p>
+      <audio controls>
+        <source src="/static/music/{{music}}/music3.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="music">
+      <p style="padding:10px">Music option 4:</p>
+      <audio controls>
+        <source src="/static/music/{{music}}/music4.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="music">
+      <p style="padding:10px">Music option 5:</p>
+      <audio controls>
+        <source src="/static/music/{{music}}/music5.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+    </div>
+    </div>
+    </div>
   </div>
+</div>
+ 
 
 </body>
 
