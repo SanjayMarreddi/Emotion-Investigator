@@ -1,4 +1,7 @@
 #  Facial Emotion Investigator !
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src=https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg height="200">
 
@@ -89,6 +92,21 @@ deploys our application using *Flask*.
 [![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
 
 :fire: SanjayMarreddi
+
+## Contributors :point_down:
+
+<!-- If you click on the image it would take to your GitHub profile -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/sanjaymarreddi"><img src="https://avatars0.githubusercontent.com/u/57671048?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sanjay Marreddi</b></sub></a><br /><a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=SanjayMarreddi" title="Code">💻</a> <a href="#projectManagement-SanjayMarreddi" title="Project Management">📆</a> <a href="#question-SanjayMarreddi" title="Answering Questions">💬</a> <a href="#ideas-SanjayMarreddi" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 ## Open Source Programs
 This Project is part of the following programs :

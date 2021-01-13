@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SanjayMarreddi",
+      "name": "Sanjay Marreddi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/57671048?v=4",
+      "profile": "https://www.linkedin.com/in/sanjaymarreddi",
+      "contributions": [
+        "code",
+        "projectManagement",
+        "question",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Facial-Expression-Recognition-Classifier-Model",
+  "projectOwner": "SanjayMarreddi",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
