@@ -6,14 +6,6 @@
   "commit": false,
   "contributors": [
     {
-
-      "login": "tharunc",
-      "name": "tharunc",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/68283386?v=4",
-      "profile": "https://github.com/tharunc",
-      "contributions": [
-        "doc" ]
-
       "login": "SanjayMarreddi",
       "name": "Sanjay Marreddi",
       "avatar_url": "https://avatars0.githubusercontent.com/u/57671048?v=4",
@@ -22,8 +14,7 @@
         "code",
         "projectManagement",
         "question",
-        "ideas" ]
-
+        "ideas"
       ]
     }
   ],
