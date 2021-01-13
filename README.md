@@ -112,9 +112,6 @@ This Project is part of the following programs :
 
 You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
-## Music
-
-Music: https://www.bensound.com
 
 ## License
 
