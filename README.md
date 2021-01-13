@@ -108,14 +108,6 @@ deploys our application using *Flask*.
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-[![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
-|:--:| 
-| *SanjayMarreddi* |
-[![](https://github.com/muthuannamalai12.png?size=100)](https://github.com/muthuannamalai12)
-| *Muthu Annamalai* |
-
 ## Open Source Programs
 This Project is part of the following programs :
 
