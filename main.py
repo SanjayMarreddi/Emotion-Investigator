@@ -48,6 +48,22 @@ def allowed_file(filename):
 
 ###################################################################################
 
+def mood(result):
+    if result=="Happy":
+        return 'Since you are happy, lets keep up the good mood with some amazing music!'
+    elif result=="Sad":
+        return 'It seems that you are having a bad day, lets cheer you up with some amazing music!'
+    elif result=="Disgust":
+        return 'It seems something has got you feeling disgusted. Lets improve your mood with some great music!'
+    elif result=="Neutral":
+         return 'It seems like a normal day. Lets turn it into a great one with some amazing music!'
+    elif result=="Fear":
+        return 'You seem very scared. We are sure that some music will help!'
+    elif result=="Angry":
+        return 'You seem angry. Listening to some music will surely help you calm down!'
+    elif result=="Surprise":
+        return 'You seem surprised! Hopefully its some good news. Lets celebrate it with some great music!'
+
 @app.route('/')
 def Start():
     """ Renders the Home Page """
@@ -86,7 +102,8 @@ def takeimage():
     if len(result) == 1:
         return render_template('NoDetection.html', orig=result[0])
 
-    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2])
+    sentence=mood(result[3])
+    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2],music=result[3],sentence=sentence)
 
 
 @app.route('/ManualUpload', methods=['POST'])
@@ -127,9 +144,11 @@ def uploadimage():
 
             # When Classifier could not detect any Face.
             if len(result) == 1:
+
                 return render_template('NoDetection.html', orig=result[0])
 
-            return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2])
+            sentence=mood(result[3])
+            return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2],music=result[3],sentence=sentence)
 
 
 @app.route('/imageurl', methods=['POST'])
@@ -154,7 +173,9 @@ def imageurl():
     if len(result) == 1:
         return render_template('NoDetection.html', orig=result[0])
 
-    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2])
+    sentence=mood(result[3])
+
+    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2],music=result[3],sentence=sentence)
 
 
 if __name__ == '__main__':

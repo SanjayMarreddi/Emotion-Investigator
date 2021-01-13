@@ -51,6 +51,10 @@ def Emotion_Analysis(img):
         # Custom Symbols to print with text of emotion.
         Symbols = {"Happy": ":)", "Sad": ":}", "Surprise": "!!",
                    "Angry": "?", "Disgust": "#", "Neutral": ".", "Fear": "~"}
+    
+
+        ## based on the prediction recommend music
+
 
         # Defining the Parameters for putting Text on Image
         Text = str(prediction) + Symbols[str(prediction)]
@@ -103,6 +107,6 @@ def Emotion_Analysis(img):
         # Saving the Bar Plot
         path = "static/" + "bar_plot" + str(img)
         plt.savefig(path)
-
+       
     # Returns a list containing the names of Original, Predicted, Bar Plot Images
-    return ([img, "pred" + img, "bar_plot" + img])
+    return ([img, "pred" + img, "bar_plot" + img, prediction])
