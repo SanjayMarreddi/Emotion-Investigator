@@ -101,14 +101,12 @@ deploys our application using *Flask*.
 <!-- markdownlint-disable -->
 <table>
   <tr>
-
-    <td align="center"><a href="https://github.com/tharunc"><img src="https://avatars3.githubusercontent.com/u/68283386?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tharunc</b></sub></a><br /><a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=tharunc" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/sanjaymarreddi"><img src="https://avatars0.githubusercontent.com/u/57671048?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sanjay Marreddi</b></sub></a><br /><a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=SanjayMarreddi" title="Code">💻</a> <a href="#projectManagement-SanjayMarreddi" title="Project Management">📆</a> <a href="#question-SanjayMarreddi" title="Answering Questions">💬</a> <a href="#ideas-SanjayMarreddi" title="Ideas, Planning, & Feedback">🤔</a></td>
-
   </tr>
 </table>
 
-
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 ## Open Source Programs
 This Project is part of the following programs :
