@@ -91,7 +91,7 @@ deploys our application using *Flask*.
 
 [![](https://github.com/SanjayMarreddi.png?size=100)](https://github.com/SanjayMarreddi)
 
-:fire: SanjayMarreddi
+[SanjayMarreddi](https://www.linkedin.com/in/sanjaymarreddi/)
 
 
 ## Contributors :fire:
@@ -109,7 +109,10 @@ Thanks to all these wonderful developers who made this project awesome!:raised_h
             <sub><b>Sanjay Marreddi</b></sub>
             </a><br />
             <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=SanjayMarreddi">
-            👑 Author
+            💻
+            </a>
+           <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/pulls?author=SanjayMarreddi">
+            📆 💬 👀 📢 
             </a>
         </td>
         <td align="center">
