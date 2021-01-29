@@ -100,10 +100,67 @@ deploys our application using *Flask*.
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/sanjaymarreddi"><img src="https://avatars0.githubusercontent.com/u/57671048?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sanjay Marreddi</b></sub></a><br /><a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=SanjayMarreddi" title="Code">💻</a> <a href="#projectManagement-SanjayMarreddi" title="Project Management">📆</a> <a href="#question-SanjayMarreddi" title="Answering Questions">💬</a> <a href="#ideas-SanjayMarreddi" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
+<!--   ROW 1 -->
+    <tr>
+        <td align="center">
+            <a href="https://github.com/SanjayMarreddi">
+            <img src="https://avatars.githubusercontent.com/u/57671048?s=400&u=3c11ccbd526617ce2bb36ab17225d2f42cbaa7f9&v=4" width="100px" alt=""/><br />
+            <sub><b>Sanjay Marreddi</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=SanjayMarreddi">
+            👑 Author
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/muthuannamalai12">
+            <img src="https://avatars.githubusercontent.com/u/64524822?s=400&u=c1f8f317ca1eb1340f411b69b3b7c85446303ae5&v=4" width="100px" alt=""/><br />
+            <sub><b>Muthu Annamalai.V</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=muthuannamalai12">
+            💻
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/tharunc">
+            <img src="https://avatars.githubusercontent.com/u/68283386?s=460&v=4" width="100px" alt=""/><br />
+            <sub><b>atharunc</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=tharunc">
+            💻
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/bharath-acchu">
+            <img src="https://avatars.githubusercontent.com/u/37451492?s=460&u=86f4acf78416870bf01361276c8c9ab8f7710a2f&v=4" width="100px" alt=""/><br />
+            <sub><b>bharath-acchu</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=bharath-acchu">
+            💻
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/anushavc">
+            <img src="https://avatars.githubusercontent.com/u/61351780?s=460&u=d508557e731d32cfecbb6d4e619a5f603920f7bb&v=4" width="100px" alt=""/><br />
+            <sub><b>Anusha verma chandraju</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=anushavc">
+            💻
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/himanshu007-creator">
+            <img src="https://avatars.githubusercontent.com/u/65963997?s=460&u=da0f5f134520e08a42e768efb23942ecd9a25434&v=4" width="100px" alt=""/><br />
+            <sub><b>Himanshu</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=himanshu007-creator">
+            💻
+            </a>
+        </td>
+       
+    </tr>
+
 </table>
+
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
