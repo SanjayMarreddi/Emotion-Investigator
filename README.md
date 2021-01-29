@@ -93,8 +93,9 @@ deploys our application using *Flask*.
 
 :fire: SanjayMarreddi
 
-## Contributors :point_down:
 
+## Contributors :fire:
+Thanks to all these wonderful developers who made this project awesome!:raised_hands:
 <!-- If you click on the image it would take to your GitHub profile -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -156,9 +157,7 @@ deploys our application using *Flask*.
             💻
             </a>
         </td>
-       
-    </tr>
-
+</tr>
 </table>
 
 
