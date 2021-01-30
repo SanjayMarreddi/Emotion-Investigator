@@ -6,7 +6,7 @@
     <link href="static/style.css" rel="stylesheet">
 </head>
 
-<body>
+<div>
     <style>
         .center {
             display: flex;
@@ -24,7 +24,7 @@
 
         h1 {
             text-align: center;
-            color: yellow
+            color:#0A043C;
         }
 
         h2 {
@@ -48,7 +48,7 @@
         }
 
         .button {
-            background-color: #4CAF50;
+            background-color: #03506F;
             border: none;
             color: white;
             padding: 15px 32px;
@@ -65,19 +65,29 @@
         <div class="animation-area">
             <title>Upload new File</title>
 
-            <h1>Upload an Image </h1>
-            <h1>.</h1>
-
-            <h3>Choose Images from your System</h3>
+            <div style="display:flex;flex-direction:column; align-items:center;
+            justify-content:center;
+            text-align:center;">
+              <div class="animation-area" style="height: 100vh;display:flex;flex-direction:column; align-items:center;
+              justify-content:center;text-align:center;">
+            <h3 style="color:#0A043C;">Upload Image from your System</h3>
             <div class="center">
-
                 <form action=/uploadimage method=post enctype=multipart/form-data>
                     <input type=file name=file class=button>
                     <input type=submit value=Upload class=button>
                 </form>
             </div>
-            <h1>.</h1>
-            <h3>Fetch Images from the URL </h3>
+            </div>
+            </div></div>
+
+
+
+            <div style="display:flex;flex-direction:column; align-items:center;
+            justify-content:center;
+            text-align:center;">
+              <div class="animation-area" style="height: 100vh;display:flex;flex-direction:column; align-items:center;
+              justify-content:center;text-align:center;color:#FFE3DE;background-color:#0A043C">
+            <h3 style="color:white">Fetch Image from URL </h3>
 
             <div class="center">
 
@@ -89,6 +99,8 @@
         </div>
 
     </div>
+    </div>
+</div>
 </body>
 
 </html>

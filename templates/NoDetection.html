@@ -22,7 +22,7 @@
 
         h1 {
             text-align: center;
-            color: yellow
+            color: white
         }
 
         h3 {
@@ -52,15 +52,22 @@
 <body>
     <div class="banner-text">
         <div class="animation-area">
-            <h1> Sorry :( We could not make Prediction! </h1>
-            <h3> Please try with a different Image. </h3>
+            
+            <div style="display:flex;flex-direction:column; align-items:center;
+            justify-content:center;
+            text-align:center;">
+              <div class="animation-area" style="height: 100vh;display:flex;flex-direction:column; align-items:center;
+              justify-content:center;text-align:center;color:#FFE3DE;background-color:#0A043C">
+            <h1> Sorry. We are not able to make a prediction with this image </h1>
+            <h3 style="padding-top:20px;"> Please try capturing another image</h3>
 
             <div class="column">
-                <h2>Input Image</h2>
                 <img src="/static/{{orig}}" alt="Original" style="width:400px;height:500px;">
             </div>
 
         </div>
+    </div>
+</div>
 
     </div>
 </body>
