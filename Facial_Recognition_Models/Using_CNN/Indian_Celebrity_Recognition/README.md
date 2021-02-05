@@ -1,4 +1,4 @@
-# **Indian Celebrity Recongnition** :movie_camera:
+# **Indian Celebrity Recongnition** :tada:
 
 ### **Using Covolutional Neural Networks(CNN)**
 
