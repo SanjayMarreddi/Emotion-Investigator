@@ -19,4 +19,4 @@ In Deep Learning, a convolutional Neural Network is a class of neural networks, 
 >## The trained model is [here](https://drive.google.com/file/d/1Cu4Pd3EFfA0DZUFQEApiAE6NO4ZUINAG/view?usp=sharing)
 
 ## The Output images are
-![first_img](https://drive.google.com/file/d/14Kh9QJFDxlJsQ7kOhujND3uky9lqmh9D/view?usp=sharing)
+<img src="https://drive.google.com/file/d/14Kh9QJFDxlJsQ7kOhujND3uky9lqmh9D/view?usp=sharing">
