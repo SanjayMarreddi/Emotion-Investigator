@@ -6,9 +6,13 @@ In Deep Learning, a convolutional Neural Network is a class of neural networks, 
 
 ### This model is aimed to identify five Indian Celebrities:
 :star: Aamir Khan
+
 :star: Abhishek Bachchan
+
 :star: Aishwarya Rai
+
 :star: Prabhas
+
 :star: Salman Khan
 
 ## To view the dataset, click [here](https://drive.google.com/drive/folders/1lRzgu86nqlVDeTzrjS5787LFCmDIeHgY?usp=sharing)
