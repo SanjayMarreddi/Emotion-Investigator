@@ -15,5 +15,5 @@ In Deep Learning, a convolutional Neural Network is a class of neural networks, 
 
 :star: Salman Khan
 
-## To view the dataset, click [here](https://drive.google.com/drive/folders/1lRzgu86nqlVDeTzrjS5787LFCmDIeHgY?usp=sharing)
-## The trained model is [here](https://drive.google.com/file/d/1Cu4Pd3EFfA0DZUFQEApiAE6NO4ZUINAG/view?usp=sharing)
+>## To view the dataset, click [here](https://drive.google.com/drive/folders/1lRzgu86nqlVDeTzrjS5787LFCmDIeHgY?usp=sharing)
+>## The trained model is [here](https://drive.google.com/file/d/1Cu4Pd3EFfA0DZUFQEApiAE6NO4ZUINAG/view?usp=sharing)
