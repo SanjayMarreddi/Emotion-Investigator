@@ -4,7 +4,20 @@
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
   <link href="static/style.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+    body{
+      margin:0;
+      padding:0;
+
+    }
     .center {
       display: flex;
       justify-content: center;
@@ -43,7 +56,8 @@
     }
 
     .button {
-      background-color: #4CAF50;
+      margin-top:20px;
+      background-color: #03506F;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -62,47 +76,104 @@
 </head>
 
 <body>
-  <div class="banner-text">
-    <div class="animation-area">
-      <h1> Facial Emotion Investigator</h1>
-      <h1>~</h1>
 
-      <div class="SLIDESHOW">
-        <img class="mySlides" width=900px height=400px
-          src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg"
-          style="display:block">
-        <img class="mySlides" width=900px height=400px
-          src="https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg" style="display:block">
-        <img class="mySlides" width=900px height=400px
-          src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png"
-          style="display:block">
-        <img class="mySlides" width=900px height=400px
-          src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png"
-          style="display:block">
-        <img class="mySlides" width=900px height=400px
-          src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png"
-          style="display:block">
-        <img class="mySlides" width=900px height=400px
-          src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png"
-          style="display:block">
-      </div>
-
-
-      <div class="center">
-
-        <form action="/RealTime" method="post">
-          <input type="submit" name="Real Time Image" value="Real Time Image" class="button" />
-        </form>
-
-        <form action="/ManualUpload" method="post">
-          <input type="submit" name="Manually Upload Image" value="Manually Upload Image" class="button" />
-        </form>
-
-      </div>
-
+  <!--Heading section-->
+  <div class="a" style="background-color:#FFE3DE;margin-top:0;position:relative;">
+    <div class="container"></div>
+    <div style="display:flex;flex-direction:column; align-items:center;
+  justify-content:center;
+  text-align:center;">
+    <div class="animation-area" style="height: 100vh;width:100%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;">
+    <div class="animation-area .container-sm" style="height: 70vh;width:70%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;background-color:#0A043C;margin:30px;color:white">
+    <div class="animation-area .container-sm" style="height: 80vh;width:90%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;background-color:#03506F;margin:30px;color:white;">
+    <div style="display: flex;flex-direction:row">
+      <p style="font-size: 70px;">Facial Emotion Investigator</p>
+      <img style="margin-left:-120px" src="../static/undraw_the_search_s0xf (1) 1.svg" alt="">
     </div>
-
+   
   </div>
+  </div>
+    </div>
+  </div>
+
+  <!--about section-->
+  <div style="display:flex;flex-direction:column; align-items:center;
+  justify-content:center;
+  text-align:center;">
+    <div class="animation-area" style="height: 100vh;width:100%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;">
+    <div class="animation-area .container-sm" style="height: 80vh;width:70%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;background-color:#0A043C;margin:30px;color:white">
+    <p style="font-size:xx-large;" >Glimpse of the project !</p>
+    <div class="SLIDESHOW" >
+      <img class="mySlides" width=90% height=400px
+        src="https://user-images.githubusercontent.com/57671048/103117235-80cb3200-468f-11eb-93ca-766e6f42f5b1.jpg"
+        style="display:block">
+      <img class="mySlides" width=90% height=400px
+        src="https://www.apa.org/images/PSA-2011-05-matsumoto-fig1_tcm7-115934_w1024_n.jpg" style="display:block">
+      <img class="mySlides" width=90% height=400px
+        src="https://user-images.githubusercontent.com/57671048/98131265-1e508380-1ee1-11eb-92b5-12c7677c08c0.png"
+        style="display:block">
+      <img class="mySlides" width=90% height=400px
+        src="https://user-images.githubusercontent.com/57671048/98131077-f103d580-1ee0-11eb-9dc3-905f3884ee1b.png"
+        style="display:block">
+      <img class="mySlides" width=90% height=400px
+        src="https://user-images.githubusercontent.com/57671048/98131204-10026780-1ee1-11eb-999b-0182a68ce529.png"
+        style="display:block">
+      <img class="mySlides" width=90% height=400px
+        src="https://user-images.githubusercontent.com/57671048/98197451-c8192a00-1f4c-11eb-8b9f-e752acce1127.png"
+        style="display:block">
+    </div>
+    
+ 
+</div>
+  </div>
+  </div>
+
+
+  <!--Real time section-->
+  <div style="display:flex;flex-direction:column; align-items:center;
+  justify-content:center;
+  text-align:center;">
+    <div class="animation-area" style="height: 100vh;width:100%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;">
+    <div class="animation-area .container-sm" style="height: 70vh;width:70%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;background-color:#0A043C;margin:30px;color:white">
+    <p style="font-size:xx-large;padding-bottom:50px;" >Real time image</p>
+    <p style="font-size:x-large;padding-bottom:20px;">To detect your emotion using the webcam feed</p>
+    <form action="/RealTime" method="post">
+      <input type="submit" name="Real Time Image" value="Real Time Image" class="button" />
+    </form>
+ 
+</div>
+  </div>
+</div>
+  
+
+    
+  <!--manual section-->
+  
+  <div style="display:flex;flex-direction:column; align-items:center;
+  justify-content:center;
+  text-align:center;">
+    <div class="animation-area" style="height: 100vh;width:100%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;">
+    <div class="animation-area .container-sm" style="height: 70vh;width:70%;display:flex;flex-direction:column; align-items:center;
+    justify-content:center;text-align:center;background-color:#0A043C;margin:30px;color:white">
+    <p style="font-size:xx-large;padding-bottom:50px;">Manually Upload Image</p>
+    <p style="font-size:x-large;padding-bottom:20px;">To detect the emotion based on images you upload from your system or images fetched from url</p>
+      <form action="/ManualUpload" method="post">
+        <input type="submit" name="Manually Upload Image" value="Manually Upload Image" class="button" />
+      </form>
+ 
+</div>
+  </div>
+  </div>
+
+  
 
   <script>
     var myIndex = 0;
