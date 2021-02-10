@@ -64,6 +64,49 @@ def mood(result):
     elif result=="Surprise":
         return 'You seem surprised! Hopefully its some good news. Lets celebrate it with some great music!'
 
+
+def url(result):
+    if result=="Happy":
+        return 'https://open.spotify.com/playlist/1BVPSd4dynzdlIWehjvkPj'
+    elif result=="Sad":
+        return 'https://www.writediary.com/ '
+    elif result=="Disgust":
+        return 'https://open.spotify.com'
+    elif result=="Neutral":
+         return 'https://www.netflix.com/'
+    elif result=="Fear":
+        return 'https://www.youtube.com/watch?v=KWt2-lUpg-E'
+    elif result=="Angry":
+        return 'https://www.onlinemeditation.org/'
+    elif result=="Surprise":
+        return 'https://www.google.com/search?q=hotels+near+me&oq=hotels+&aqs=chrome.1.69i57j0i433i457j0i402l2j0i433l4j0l2.3606j0j7&sourceid=chrome&ie=UTF-8'
+
+
+def activities(result):
+    if result == "Happy":
+        return '• Try out some dance moves'
+
+
+    elif result == "Sad":
+        return '• Write in a journal'
+
+    elif result == "Disgust":
+        return '• Listen soothing music'
+
+    elif result == "Neutral":
+        return '• Watch your favourite movie'
+
+    elif result == "Fear":
+        return '• Get a good sleep'
+
+    elif result == "Angry":
+        return '• Do meditation'
+
+
+    elif result == "Surprise":
+        return '• Give yourself a treat' \
+
+
 @app.route('/')
 def Start():
     """ Renders the Home Page """
@@ -102,8 +145,11 @@ def takeimage():
     if len(result) == 1:
         return render_template('NoDetection.html', orig=result[0])
 
-    sentence=mood(result[3])
-    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2],music=result[3],sentence=sentence)
+    sentence = mood(result[3])
+    activity = activities(result[3])
+    link = url(result[3])
+    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2], music=result[3],
+                           sentence=sentence, activity=activity, image=result[3], link=link)
 
 
 @app.route('/ManualUpload', methods=['POST'])
@@ -147,8 +193,11 @@ def uploadimage():
 
                 return render_template('NoDetection.html', orig=result[0])
 
-            sentence=mood(result[3])
-            return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2],music=result[3],sentence=sentence)
+            sentence = mood(result[3])
+            activity = activities(result[3])
+            link = url(result[3])
+            return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2], music=result[3],
+                                   sentence=sentence, activity=activity, image=result[3], link=link)
 
 
 @app.route('/imageurl', methods=['POST'])
@@ -173,9 +222,11 @@ def imageurl():
     if len(result) == 1:
         return render_template('NoDetection.html', orig=result[0])
 
-    sentence=mood(result[3])
-
-    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2],music=result[3],sentence=sentence)
+    sentence = mood(result[3])
+    activity = activities(result[3])
+    link = url(result[3])
+    return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2], music=result[3],
+                           sentence=sentence, activity=activity, image=result[3], link=link)
 
 
 if __name__ == '__main__':
