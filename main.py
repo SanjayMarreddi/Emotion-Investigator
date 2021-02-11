@@ -65,7 +65,7 @@ def mood(result):
         return 'You seem surprised! Hopefully its some good news. Lets celebrate it with some great music!'
 
 
-def url(result):
+def provide_url(result):
     if result=="Happy":
         return 'https://open.spotify.com/playlist/1BVPSd4dynzdlIWehjvkPj'
     elif result=="Sad":
@@ -147,7 +147,7 @@ def takeimage():
 
     sentence = mood(result[3])
     activity = activities(result[3])
-    link = url(result[3])
+    link = provide_url(result[3])
     return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2], music=result[3],
                            sentence=sentence, activity=activity, image=result[3], link=link)
 
@@ -195,7 +195,7 @@ def uploadimage():
 
             sentence = mood(result[3])
             activity = activities(result[3])
-            link = url(result[3])
+            link = provide_url(result[3])
             return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2], music=result[3],
                                    sentence=sentence, activity=activity, image=result[3], link=link)
 
@@ -224,7 +224,7 @@ def imageurl():
 
     sentence = mood(result[3])
     activity = activities(result[3])
-    link = url(result[3])
+    link = provide_url(result[3])
     return render_template('Visual.html', orig=result[0], pred=result[1], bar=result[2], music=result[3],
                            sentence=sentence, activity=activity, image=result[3], link=link)
 
