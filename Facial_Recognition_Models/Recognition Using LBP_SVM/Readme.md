@@ -22,3 +22,9 @@
     4] python model.py
     
    
+## Snapshots 
+
+![prediction_1](https://user-images.githubusercontent.com/43903254/107783286-1883fd00-6d70-11eb-85f1-dbd71829822e.png)
+![prediction_2](https://user-images.githubusercontent.com/43903254/107783306-1e79de00-6d70-11eb-9146-2f93b5eb3977.png)
+    
+   
