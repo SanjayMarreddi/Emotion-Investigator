@@ -160,6 +160,15 @@ Thanks to all these wonderful developers who made this project awesome!:raised_h
             💻
             </a>
         </td>
+       <td align="center">
+            <a href="https://github.com/shaikyasmeen-mldl">
+            <img src="https://avatars.githubusercontent.com/u/66788030?s=460&u=8740010798e8aafb126383bd5055e405894ec91d&v=4" width="100px" alt=""/><br />
+            <sub><b>Shaik Yasmeen</b></sub>
+            </a><br />
+            <a href="https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model/commits?author=shaikyasmeen-mldl">
+            💻
+            </a>
+        </td>
 </tr>
 </table>
 
@@ -183,5 +192,7 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 ## License
 
 This project follows the [MIT License](/LICENSE).
+
+
 
 
