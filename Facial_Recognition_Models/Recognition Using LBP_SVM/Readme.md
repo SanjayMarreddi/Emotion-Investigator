@@ -10,9 +10,10 @@
     
     
 ## Quick Start
-    1] git clone https://github.com/akshitagupta15june/Face-X.git
-    2] cd Recognition using LBP_SVM
-    
+    1] git clone https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model.git
+    2] cd Facial-Expression-Recognition-Classifier-Model
+       cd Facial_Recognition_Models
+       cd 'Recognition Using LBP_SVM'
     
     -->To collect live data run below command
     3] python create_dataset.py
