@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+	<!-- Bollywood face -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Celebrity Recognition System</title>
+	<!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet"> 
+	<style>
+	<!-- css -->
+	.headerpart {
+		background-color: #000000!important;
+		height:70px;
+		color: #ffffff;
+		text-align: center;
+		}
+	.foot{
+		background-color: #000000!important;
+		height:60px;
+		color: #ffffff;
+		text-align: center;
+		}
+	.main{
+		height:470px;
+	}
+	marquee{
+		height:50px;
+		background-color: #808080!important;
+	}
+	#result {
+		color: #000000;
+
+	}
+	
+	
+	</style>
+</head>
+
+<body>
+	<!-- visible to user -->
+    <div class="headerpart">
+		<h1>BOLLYWOOD CELEBRITY RECOGNITION USING CNN</h1>
+	</div>
+	<div class="mar">
+		<marquee direction="left" height="30%">
+		<!-- bollywood actor faces are trained only -->
+			<h3>Efficient and reliable identification of 5 celebrities-Aamir 
+			khan, Abhishek Bchchan, Aishwarya Rai, Prabhas, Salman Khan</h3>
+		  </marquee>
+	</div>
+	<div class="main">
+    <div class="container">
+		<div id="content" style="margin-top:2em">
+		<div class="w3-container">
+			<div class="row">
+			<div class="col-sm-6 bd" >
+				<!-- image taken from google -->
+				<img src="index.jpg" style="height:450px"  style="width:100px" class="img-rounded" alt="imagepic">       
+			</div>
+			<div class="col-sm-6">
+				<div>
+					<br>
+					<!-- Taking the celebrity image Input -->
+					<h4>Please upload a celebrity image</h4>
+			<form action = "http://localhost:5000/predict" id="upload-file" method="post" enctype="multipart/form-data">
+				<label for="imageUpload" class="upload-label">
+					Please Choose...
+				</label>
+				<input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg">
+			</form>
+			
+
+			<div class="image-section" style="display:none;">
+			<!-- Preview of the image -->
+				<div class="img-preview">
+					<div id="imagePreview">
+					</div>
+				</div>
+				<!--Button to view the output -->
+				<div>
+					<button type="button" class="btn btn-info btn-lg " id="btn-predict">Click on this to see who the Celebrity is!</button>
+				</div>
+			</div>
+
+			<div class="loader" style="display:none;"></div>
+
+			<h3>
+				<span id="result"> </span>
+			</h3>
+
+		</div>
+			</div>
+	
+		  </div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="foot">
+		<h1>Thank You!!</h1>
+	</div>
+</body>
+
+<footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>    
+</footer>
+
+</html>
