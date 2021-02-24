@@ -1,24 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan  1 15:12:17 2021
-
-"""
-
-#Importing Packages
 import numpy as np
 import os
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from keras.models import load_model
+from keras.preprocessing import image
 import tensorflow as tf
 global graph
-graph = tf.get_default_graph()
+graph = tf.compat.v1.get_default_graph()
 from flask import Flask , request, render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
-#Loading the dataset
 app = Flask(__name__)
-model = load_model("celeb.h5")
+model = load_model("trained_model.h5")
 
 @app.route('/')
 def index():
@@ -41,20 +33,14 @@ def upload():
         
         with graph.as_default():
             preds = model.predict_classes(x)
-            4
+            
             
             print("prediction",preds)
-         #Model Prediction labels
-        index = ['ben_afflek','etlon_john','jerry_seinfeld','madonna','mindy_kaling']
+            
+        index = ['Aamir Khan','Abhishek Bachchan','Aishwarya Roy','Prabhas','Salman Khan']
         
         text = "the predicted celebrity is : " + str(index[preds[0]])
         
     return text
 if __name__ == '__main__':
     app.run(debug = True)
-        
-        
-        
-    
-    
-    
