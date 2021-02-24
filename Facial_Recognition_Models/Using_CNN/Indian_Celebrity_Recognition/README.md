@@ -23,3 +23,10 @@ In Deep Learning, a convolutional Neural Network is a class of neural networks, 
 <img src="https://github.com/shaikyasmeen-mldl/Images/blob/main/Screenshot%20(2).png" height="300px"/>
 
 <img src="https://github.com/shaikyasmeen-mldl/Images/blob/main/Screenshot%20(3).png" height="300px"/>
+
+## The final UI images after using HTML and CSS are
+<img src="https://github.com/shaikyasmeen-mldl/Images/blob/main/Img1.jpeg" height="300px"/>
+
+<img src="https://github.com/shaikyasmeen-mldl/Images/blob/main/img3.jpeg" height="300px"/>
+
+<img src="https://github.com/shaikyasmeen-mldl/Images/blob/main/img2.jpeg" height="300px"/>
