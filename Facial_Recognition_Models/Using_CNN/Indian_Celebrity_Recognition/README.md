@@ -17,6 +17,7 @@ In Deep Learning, a convolutional Neural Network is a class of neural networks, 
 
 >## To view the dataset, click [here](https://drive.google.com/drive/folders/1lRzgu86nqlVDeTzrjS5787LFCmDIeHgY?usp=sharing)
 >## The trained model is [here](https://drive.google.com/file/d/1Cu4Pd3EFfA0DZUFQEApiAE6NO4ZUINAG/view?usp=sharing)
+>## To view the output click [here] (https://drive.google.com/file/d/1EX2FO1HPs1kQjvsFkI264TltUIb53J2i/view?usp=sharing)
 
 ## The Output images are
 <img src="https://github.com/shaikyasmeen-mldl/Images/blob/main/Screenshot%20(2).png" height="300px"/>
