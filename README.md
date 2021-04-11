@@ -39,7 +39,9 @@ Facial expression for emotion detection has always been an easy task for humans,
 - Fork this repository.
 - Clone the repository to your System using `git clone`
 - Example : `git clone https://github.com<your-github-username>/Facial-Expression-Recognition-Classifier-Model`
-- Open any **Python** IDE and run the `main.py` file. 
+- Create a new [Virtual Environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) with python 3.7.0 version. 
+- Install all the dependencies with `pip install -r requirements.txt`.
+- Now run the `main.py` file. 
 - Once it shows `Running on http://127.0.0.1:5000/` go to *http://127.0.0.1:5000/* in your browser.
 
 
