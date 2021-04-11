@@ -3,8 +3,8 @@ Keras-Preprocessing==1.1.0
 matplotlib==3.3.3
 opencv-python==4.4.0.46
 pandas==1.1.5
-Pillow==8.0.1
-tensorflow==2.3.0
+Pillow>=8.0.1
+tensorflow>=2.3.0
 numpy==1.19.2
-urllib3==1.26.2
+urllib3>=1.26.2
 werkzeug==1.0.1
