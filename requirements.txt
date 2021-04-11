@@ -6,5 +6,5 @@ pandas==1.1.5
 Pillow==8.0.1
 tensorflow==2.3.0
 numpy==1.19.2
-urllib3==1.26.2
+urllib3==1.26.4
 werkzeug==1.0.1
