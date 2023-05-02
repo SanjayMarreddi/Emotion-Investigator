@@ -1,4 +1,4 @@
-Flask==1.1.2
+Flask==2.2.5
 Keras-Preprocessing==1.1.0
 matplotlib==3.3.3
 opencv-python==4.4.0.46
